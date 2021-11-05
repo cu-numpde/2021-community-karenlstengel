@@ -33,14 +33,16 @@ PyLith is aimed at users who identify as "scientists who prefer to use prepackag
 Check the following boxes when complete or add a note below if you
 encountered a problem.
 
-- [ ] I have installed the software
-- [ ] I have run at least one example
-- [ ] I have run the test suite
-- [ ] The test suite passes
+- [x] I have installed the software
+- [x] I have run at least one example
+- [x] I have run the test suite
+- [x] The test suite passes
 
 ### Notes/concerns/risks
 
 In general, it seems like PyLith has a pretty small community but the main contributors are very responsive to questions on the forum. PyLith is reportedly a challenge to contribute to due to requirements/system environment requirements, and integration of multiple languages.
+
+I would like to note that this package/library was a huge pain to install; on Mac the package didn't play well with Xcode (shocking, I know) and on Linux it installed easier but the documentation/installation instructions are horrible and generally confusing since there are about 5 different ways to install the software and dependencies. I think the project would benefit a lot from better instructional documentation. 
 
 #### Note on copyright
 Students retain copyright on any work done in completion of a CU
