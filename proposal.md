@@ -1,29 +1,32 @@
 # Community Software Analysis Proposal
 Please edit this file and push to your repository.
 
-## Software: *NAME_OF_PACKAGE_HERE*
+## Software: *PyLith*
 
-*Write a paragraph describing what the software does and who its
-primary audience is.*
+From the documentation: "PyLith is portable, scalable software for simulation of crustal deformation across spatial scales ranging from meters to hundreds of kilometers and temporal scales ranging from milliseconds to thousands of years. Its primary applications are quasistatic and dynamic modeling of earthquake faulting."
+PyLith focuses on use of point-wise functions to implement governing equations,
+higher order discretizations, incompressible elasticity, and use of PETSc time-stepping algorithms. The software package also provides several 2D and 3D examples that are relevant to earthquake modeling such as slips and splay faults.
+
+PyLith is aimed at users who identify as "scientists who prefer to use prepackaged and specialized analysis tools, and experienced computational Earth scientists." I.e. the user base of PyLith has a variety of computational skill levels/abilities with developers expected to have a baseline/minimal level of programming experience.
 
 ### Stats
 
-| Description | Your answer |
-|---------|-----------|
-| Repository URL |    |
-| Main/documentation website |    |
-| Year project was started |   |
-| Number of contributors in the past year | `git shortlog -se --since=2020-10-01` may be useful |
-| Number of contributors in the lifetime of the project |   |
-| Number of distinct affiliations | 1, 2-5, 5-10, >10 |
-| Where do development discussions take place? | e.g., GitHub/GitLab issues, mailing list, Slack, etc.  |
-| Typical number of emails/comments per week? |   |
-| Typical number of commits per week? |  |
-| Typical commit size | `git log --shortstat` may be useful |
-| How does the project accept contributions? | e.g., pull requests, patches on mailing lists   |
-| Does the project have an automated test suite? | yes/no |
-| Does the project use continuous integration? | yes/no |
-| Are any legal/licensing steps required to contribute? | no or explain below |
+| Description                                           | Your answer |
+|-------------------------------------------------------|-------------|
+| Repository URL                                        |[https://github.com/geodynamics/pylith](https://github.com/geodynamics/pylith) |
+| Main/documentation website                            |[https://pylith.readthedocs.io/en/latest/user/index.html](https://pylith.readthedocs.io/en/latest/user/index.html)|
+| Year project was started                              | 2004 |
+| Number of contributors in the past year               | 6 |
+| Number of contributors in the lifetime of the project | 8 |
+| Number of distinct affiliations                       | 5 |
+| Where do development discussions take place?          | GitHub issues; [https://community.geodynamics.org/c/pylith/29](https://community.geodynamics.org/c/pylith/29); documentation site lists a mailing-list but the link was broken...|
+| Typical number of emails/comments per week?           | seems like minimal discussion on GitHub; 10-20 on the forum |
+| Typical number of commits per week?                   | around 10 |
+| Typical commit size                                   | $<20$ files changed, $0 \to$ few thousand insertions/deletions |
+| How does the project accept contributions?            | pull requests |
+| Does the project have an automated test suite?        | no? not on GitLab and don't use Actions |
+| Does the project use continuous integration?          | yes; checks on commits |
+| Are any legal/licensing steps required to contribute? | no |
 
 ### Install and run
 
@@ -37,12 +40,7 @@ encountered a problem.
 
 ### Notes/concerns/risks
 
-Please comment on any anomalies or known risks to following this
-project, if you were unable to answer any questions above, or
-otherwise have concerns about the appropriateness of the software.  If
-the project requires a contributor license agreement or other
-procedural steps, please explain here.  "None at this time" is
-acceptable for this question.
+In general, it seems like PyLith has a pretty small community but the main contributors are very responsive to questions on the forum. PyLith is reportedly a challenge to contribute to due to requirements/system environment requirements, and integration of multiple languages.
 
 #### Note on copyright
 Students retain copyright on any work done in completion of a CU
