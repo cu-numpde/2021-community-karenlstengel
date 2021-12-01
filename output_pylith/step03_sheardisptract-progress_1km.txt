@@ -1,2 +1,22 @@
 Timestamp                     Simulation t   % complete   Est. completion
-Wed Dec  1 18:56:34 2021       1.00*year              0   TBD
+Wed Dec  1 19:16:53 2021       0.50*year              0   TBD
+Wed Dec  1 19:16:58 2021      10.00*year              5   Wed Dec  1 19:19:29 2021
+Wed Dec  1 19:17:03 2021      20.00*year             10   Wed Dec  1 19:18:59 2021
+Wed Dec  1 19:17:08 2021      30.00*year             15   Wed Dec  1 19:18:49 2021
+Wed Dec  1 19:17:13 2021      40.00*year             20   Wed Dec  1 19:18:44 2021
+Wed Dec  1 19:17:18 2021      50.00*year             25   Wed Dec  1 19:18:41 2021
+Wed Dec  1 19:17:23 2021      60.00*year             30   Wed Dec  1 19:18:39 2021
+Wed Dec  1 19:17:28 2021      70.00*year             35   Wed Dec  1 19:18:38 2021
+Wed Dec  1 19:17:33 2021      80.00*year             40   Wed Dec  1 19:18:37 2021
+Wed Dec  1 19:17:38 2021      90.00*year             45   Wed Dec  1 19:18:36 2021
+Wed Dec  1 19:17:43 2021     100.00*year             50   Wed Dec  1 19:18:35 2021
+Wed Dec  1 19:17:48 2021     110.50*year             55   Wed Dec  1 19:18:34 2021
+Wed Dec  1 19:17:53 2021     120.50*year             60   Wed Dec  1 19:18:34 2021
+Wed Dec  1 19:17:58 2021     130.50*year             65   Wed Dec  1 19:18:34 2021
+Wed Dec  1 19:18:03 2021     140.50*year             70   Wed Dec  1 19:18:33 2021
+Wed Dec  1 19:18:08 2021     150.50*year             75   Wed Dec  1 19:18:33 2021
+Wed Dec  1 19:18:13 2021     160.50*year             80   Wed Dec  1 19:18:33 2021
+Wed Dec  1 19:18:18 2021     170.50*year             85   Wed Dec  1 19:18:33 2021
+Wed Dec  1 19:18:22 2021     180.50*year             90   Wed Dec  1 19:18:31 2021
+Wed Dec  1 19:18:27 2021     190.50*year             95   Wed Dec  1 19:18:31 2021
+Wed Dec  1 19:18:32 2021     200.50*year            100   Wed Dec  1 19:18:31 2021
